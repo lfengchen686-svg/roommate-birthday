@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#173d55" />
+  <meta name="description" content="一份只属于今天的生日祝福" />
+  <title>生日快乐 🎂</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="scene" aria-live="polite">
+    <div class="photo" role="img" aria-label="海边秋千上的生日照片"></div>
+    <div class="wash"></div>
+    <div class="stars" aria-hidden="true"></div>
+
+    <section class="envelope" id="envelope">
+      <div class="tiny">今天·有件小事要很认真地说</div>
+      <div class="seal" aria-hidden="true">✦</div>
+      <h1>给今天最特别的人</h1>
+      <p>一封专属于你的生日小信</p>
+      <button id="openLetter" type="button">拆开看看 <span>→</span></button>
+    </section>
+
+    <section class="letter" id="letter" aria-hidden="true">
+      <p class="date">SEPTEMBER 10 · FOR YOU</p>
+      <div class="cake" aria-hidden="true">🎂</div>
+      <h2>生日快乐！</h2>
+      <p class="wish">
+        愿新的一岁，<br />
+        有海风一样的自由，<br />
+        有阳光一样的明亮，<br />
+        也有不期而遇的小幸运。
+      </p>
+      <p class="signature">—— 来自每天和你住在同一屋檐下的人</p>
+      <button class="luck" id="luck" type="button">
+        <span>收下今天的好运</span>
+        <b aria-hidden="true">✦</b>
+      </button>
+      <p class="hint" id="hint">点一下，好运会来</p>
+    </section>
+
+    <div class="toast" id="toast" role="status">你的新一岁好运已到账 ✨</div>
+    <footer>HAPPY BIRTHDAY · 2026</footer>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
